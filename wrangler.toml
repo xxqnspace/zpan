@@ -23,7 +23,7 @@ run_worker_first = [
 [[d1_databases]]
 binding = "DB"
 database_name = "zpan-db"
-database_id = "5bd64957-fa49-4da0-8b7b-6e0ad84037e7"
+database_id = "9ba07a83-c8b3-4966-8cda-d769587a626e"
 migrations_dir = "./migrations"
 
 [[kv_namespaces]]
@@ -70,7 +70,7 @@ enabled = true
 head_sampling_rate = 0.1
 
 [triggers]
-crons = ["*/10 * * * *", "10 * * * *", "0 */6 * * *", "0 */12 * * *", "0 0 1 * *", "0 4 * * *"]
+crons = ["*/10 * * * *", "10 * * * *",  "0 0 1 * *", "0 4 * * *"]
 
 # ----------------------------------------------------------------------------
 # Staging environment — used by non-production branch builds.
