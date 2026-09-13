@@ -28,7 +28,7 @@ migrations_dir = "./migrations"
 
 [[kv_namespaces]]
 binding = "CACHE_KV"
-id = "2721f9d7b47d433d8a0e02171e276f57"
+id = "14b366f76db9430b8085a4b066ab3eb8"
 
 [[ratelimits]]
 name = "WEBDAV_RATE_LIMITER"
